@@ -33,38 +33,30 @@
    ```bash
    git clone https://github.com/MhmdBagheri/IDM-for-linux.git
    cd IDM-for-linux
-Install Dependencies: Create a virtual environment and install the required packages:
-bash
+2. **Install Dependencies:**
+    Create a virtual environment and install the required packages:
+3. **Create Enviroment**
+   ```bash
+   python3 -m venv .venv
+   source .venv/bin/activate
+   pip install PyQt5 requests
 
-Collapse
-
-Wrap
-
-Copy
-python3 -m venv .venv
-source .venv/bin/activate
-pip install PyQt5 requests
-Run the Application:
-bash
-
-Collapse
-
-Wrap
-
-Copy
-python app.py
-🚀 How to Use
+4.**Run the Application:**
+   ```bash
+   python app.py
+```
+5.**🚀 How to Use**
 Launch the application.
 Enter download links in the text box (one link per line).
 Set the number of concurrent downloads.
 Choose a save location and start the download.
 Double-click on a download row to view details (e.g., progress of each part).
-🖥️ Technologies Used
-Python: For the core logic.
-PyQt5: For the graphical user interface.
-Requests: For handling HTTP requests.
-Threading: For multi-part downloading and thread management.
-🤝 Contributing
+6.**🖥️ Technologies Used**
+**Python:** For the core logic.
+**PyQt5:** For the graphical user interface.
+**Requests:** For handling HTTP requests.
+**Threading:** For multi-part downloading and thread management.
+6.**🤝 Contributing**
 This project is still under development, and we’d love your help! If you have ideas or want to report bugs, please:
 
 Open a new Issue.
@@ -73,12 +65,12 @@ How to Contribute
 Fork the repository.
 Make your changes and commit them.
 Submit a Pull Request.
-📜 License
+**📜 License**
 This project is licensed under the . See the license file for more details.
 
-📬 Contact
+**📬 Contact**
 If you have any questions or need help, feel free to reach out via email:
 
 📧 mohammadho3einbagheri@gmail.com
 
-Advanced Download Manager - Built with ❤️ for the Linux community!
+**Advanced Download Manager - Built with ❤️ for the Linux community!**
